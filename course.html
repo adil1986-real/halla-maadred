@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Education change the future</title>
+  <!-- bootstrap linking -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <!-- link for icons font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- css file linking -->
+  <link rel="stylesheet" href="style.css" />
+  <!--  animation linking -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="cours.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.css">
+ 
+
+</head>
+
+<body>
+  <header id="home">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-primary" style="background-image: url(image/hiclipart.com\ \(7\).png ); background-size: cover; background-position: center;">
+      <div class="container">
+        <a class="navbar-brand fs-6" href="#">
+          <img src="image/hiclipart.com (30).png" alt="logo" height="50px" width="100px" class="zoom-image" />
+          <span class="text-danger fs-5">bigg team</span> Real Madrid
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto fs-5 text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">
+                <i class="fas fa-home text-primary"></i>
+                <span class="text-danger fs-6">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#historique">
+                <i class="fas fa-history text-primary"></i>
+                <span class="text-danger fs-6">Historique</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Championships">
+                <i class="fas fa-trophy text-primary"></i>
+                <span class="text-danger fs-6">Championships</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#best players">
+                <i class="bi bi-star-fill text-primary"></i>
+                <span class="text-danger fs-6">Best Players</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contactus">
+                <i class="fas fa-envelope text-primary"></i>
+                <span class="text-danger fs-6">Contact Us</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/madred.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image/real (2).png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="image/real (3).png" class="d-block w-100 " alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+      <!-- home section -->
+  <section class="About my-5" id="home">
+    <div class="container">
+      <h1 data-aos="fade-up" data-aos-offset="300">Home</h1>
+      <hr class="w-25 m-auto my-3" />
+    </div>
+
+    <!-- text or image section -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="zoom-in" data-aos-offset="300">
+          <h1 class="fs-2 my-5">
+            team <span class="text-warning">real madred</span>
+          </h1>
+
+          <h5 class="p-2">
+            Real Madrid Club de Fútbol, commonly referred to as Real Madrid,
+             is a Spanish professional football club based in Madrid.
+              The club competes in La Liga, 
+            the top tier of Spanish football.
+          </h5>
+          <p class="p-2 justify-content-sm-center">
+            
+            team real madred  is the greatest and most distinguished club in the world and you cannot copare it
+             with any other club since it's founding unitil today because there is a setof data that always makes it in the lead ,
+              not in terms of the quality of the players who have passed through the club from di stefano to this day,
+               and the titles that the club has obtaind are almost miraculous,
+                so that some think that there is no room for that, 
+                 and it's stadium has become a tourist attraction visited by many foreign tourists and within spain. 
+          </p>
+
+          <button type="button" class="btn btn-light mb-5">
+            More About of team
+          </button>
+          <div class="accordion" id="accordionExample" data-aos="fade-right" data-aos-offset="300">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Why is real madred is strong?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>real madred is strong </strong>because you always know financial and administrative stability, 
+                  and also in teamsof the qyality of the players
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How does education benefit individuals?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>
+                    why is real madred know as the royal club </strong> it is know for this because it is the only club in the world 
+                    that has won many titles, 
+                    including local,continental and international titles.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  is real madred able to continue this approach?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Yes, </strong>the financial stability of the club makes it richest club almost every year 
+                  because it contrats with major companies that pump into the club's budget,
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-6 col-12 m-auto text-end" data-aos="flip-left" data-aos-offset="300">
+          <div class="inner">
+            <img src="image/hiclipart.com (29).png" class="img-fluid img-thumbnail rounded-circle zoom-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+                         <!--   historique -->
+
+
+  <section class="historique py-5 bg-light" data-aos="zoom-in" data-aos-offset="300">
+    <div class="container" id="historique">
+      <h1>historique<span class="text-dark"> real madred</span></h1>
+      <hr class="w-25 m-auto" />
+    </div>
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4 py-5">
+          <div class="card">
+            <div class="inner">
+              <img src="image/founded.jpg" alt="Image 1" class="card-img-top zoom-image" />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-center text-primary">
+                <i class="bi bi-building"></i> Founded
+              </h5>
+              <p class="card-text">
+                Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception.
+                The honorific title real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 alongside
+                with the crown in the club crest. Real Madrid have played their home matches in the 85,000-capacity Santiago Bernabéu
+                in Madrid since 1947. Unlike most European sporting clubs, Real Madrid's members (socios) have owned and operated
+                the club throughout its history. The official Madrid anthem is the "Hala Madrid y nada más", written by RedOne and Manuel Jabois.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+        
+        
+        
+        <div class="col-md-4 py-5">
+          <div class="card bg-primary text-light">
+            <div class="inner">
+              <img src="image/old.jpg" alt="Image 3" class="card-img-top zoom-image" />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-white">
+                <i class="bi bi-play-circle" style="font-size: 1.5rem; color: white;"></i> Started
+              </h5>
+              <p class="card-text">
+                Founded in 1902 as Madrid Football Club, the club has traditionally worn a white home kit since its inception.
+                The honorific title real is Spanish for "royal" and was bestowed to the club by King Alfonso XIII in 1920 alongside
+                with the crown in the club crest. Real Madrid have played their home matches in the 85,000-capacity Santiago Bernabéu
+                in Madrid since 1947. Unlike most European sporting clubs, Real Madrid's members (socios) have owned and operated
+                the club throughout its history. The official Madrid anthem is the "Hala Madrid y nada más", written by RedOne and Manuel Jabois.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+          
+        <div class="col-md-4 text-center py-5">
+          <div class="card">
+            <div class="inner">
+              <img src="image/launch.jpg" alt="Image 3" class="card-img-top zoom-image" />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-primary">
+                <i class="bi bi-play-circle-fill" style="font-size: 1.5rem; color: steelblue;"></i> The Launch
+              </h5>
+              <p class="card-text">
+                In the early 1980s, Real Madrid had lost its grasp on the La Liga title, until a new cohort of home-grown stars brought domestic success back to the club.
+                Spanish sports journalist Julio César Iglesias gave to this generation the name La Quinta del Buitre ("Vulture's Cohort"), which was derived from the nickname
+                given to one of its members, Emilio Butragueño. The other four members were Manolo Sanchís, Martín Vázquez, Míchel and Miguel Pardeza. All five footballers were graduates of Real Madrid's youth academy.
+                With La Quinta del Buitre (reduced to four members when Pardeza left for Zaragoza in 1986) and notable players like goalkeeper Francisco Buyo,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+                                <!-- champions section -->
+                                
+  <section class="container my-5 bg-white text-center">
+    <div class="container" id="Championships">
+      <div class="text-center my-5" data-aos="zoom-in" data-aos-offset="300">
+        <h1>championships</h1>
+        <hr class="w-25 m-auto" />
+      </div>
+
+                                       <!-- champions card -->
+     <center>
+        <div class="container m-auto">
+          <div class="row" data-aos="fade-left" data-aos-offset="300">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="/image/coup1.jpg" class="card-img-top image-fluid border border-primary zoom-image" alt="c" />
+                </div>
+               36 fois la liga</div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="image/coupe 2.png" class="card-img-top image-fluid border border-primary zoom-image" alt="cpp" />
+                 3 fois coupe continetal</div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="image/coupe3.png" class="card-img-top image-fluid border border-primary zoom-image"
+                    alt="java" />
+               6 fois coupe du mande of club</div>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-left" data-aos-offset="300">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="image/coupe4.jpg" class="card-img-top image-fluid border border-primary zoom-image" alt="css" />
+                15 fois champions ligue</div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="image/coup5.jpg" class="card-img-top image-fluid border border-primary zoom-image"
+                    alt="html" />
+              20 fois  coupa de rey </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+              <div class="card my-5" style="width: 12rem">
+                <div class="inner">
+                  <img src="image/coupe6.jpg" class="card-img-top border border-primary zoom-image" alt="js" />
+                13 fois super coupe </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+    </center>
+  </section>
+  <section  class="best players py-5 bg-light" data-aos="zoom-in" data-aos-offset="300">
+    <div class="container" id="best players">
+      <div class="row">
+      <div class="col-lg-4">
+      <img src="image/Cristiano_Ronaldo).jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>cristiano ronaldo</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/Robinho061115-2.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>robinho</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/Raúl_).jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>raul conzales</h3>
+    </div>
+  </div>
+  <div class="row">
+    
+    <div class="col-lg-4">
+      <img src="image/bekham.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>david bekham</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/camavinga.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>camavinga</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/ronaldo de lima.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3> ronaldo de lima</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="image/di maria.jpg" class="card-img-top border border-primary zoom-image " alt="">
+      <h3>di maria</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/Mesut_Özil_at_Baku_before_2019_UEFA_Europe_League_Final.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>ozil</h3>
+    </div><div class="col-lg-4">
+      <img src="image/Zinedine_Zidane_by_Tasnim_03.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>zindine zidane</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="image/Kaká_visited_Stadium_St._Petersburg.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>kaka</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/Karim_Benzema.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>benzema</h3>
+    </div>
+    <div class="col-lg-4">
+      <img src="image/Vinicius_Jr_2021.jpg" class="card-img-top border border-primary zoom-image" alt="">
+      <h3>vinicuis</h3>
+    </div>
+    
+  </div>
+    </div>
+  </section>
+
+                            <!-- login section -->
+
+
+  <section class="contect my-5" id="contactus">
+    <div class="container">
+      <div class="text-center my-5">
+        <h1 data-aos="fade-up" data-aos-offset="200">
+          Contact <span class="text-black">us</span>
+        </h1>
+        <hr class="w-25 m-auto" />
+      </div>
+      <div class="container">
+      <div class="row" data-aos="zoom-in" data-aos-offset="500">
+        <div class="col-12 col-sm-6 col-lg-6 col-12 m-auto ">
+          <form class="row g-3 form-label m-auto p-5 shadow" id="form">
+            <div class="col-12">
+              <legend class="fs-1 text-center text-white py-4">
+                <h1>Login form</h1>
+              </legend>
+              <label for="inputname" class="form-label m-3">Name</label>
+              <input type="text" class="form-control" id="inputname" placeholder="Enter your name" required="" />
+            </div>
+            <div class="col-12">
+              <label for="inputfathername" class="form-label">Father Name</label>
+              <input type="text" class="form-control" id="inputfathername" placeholder="Father Name" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" required="" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" id="inputPassword4" required="" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Address" />
+            </div>
+
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputCourses" class="form-label">team</label>
+              <select id="inputCourses" class="form-select" required="">
+                <option selected>Choose...</option>
+                <option>real madred</option>
+                <option>barchalona</option>
+                <option>ac milan</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="In month" class="form-label">Duration</label>
+              <input type="text" class="form-control" id="Inmonth" placeholder="In month" />
+            </div>
+            <div class="col-12">
+              <div class="form-check ">
+                <input class="form-check-input" type="checkbox" id="gridCheck" readonly="" />
+                <label class="form-check-label" for="gridCheck">
+                  Submit data
+                </label>
+              </div>
+            
+            <center>
+              <div class="col-12" data-aos="zoom-in" data-aos-offset="100">
+                <br />
+                <button type="submit" class="btn btn-primary text-right " onclick="Submitinfo()">
+                  Sign in
+
+                </button>
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <button type="reset" class="btn btn-primary text-center" onclick="resetinfo()">
+                  Reset
+                </button>
+              </div>
+            </div>
+            </center>
+            
+          </form>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-6 col-12 m-auto text-end m-5 p-4 border-light  ">
+          <div class="inner">
+            <img src="image/santiago.png" class="img-fluid img-thumbnail p-2  zoom-image" alt="contect us"  />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+                                  <!-- footer section -->
+
+
+  <footer class="footer">
+    <div class="container-fluid bg-primary text-light text-center">
+      <p>
+        <img src="image/bootstrap-icon.png" alt="Logo" class="footer-logo rounded-circle zoom-image" width="40px" height="40px" />
+        &nbsp; &nbsp; &copy; 2023 real madred. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+                                        <!-- Bootstrap JS file  -->
+  <script>
+    function Submitinfo() {
+      alert("Information submitted")
+    }
+    function resetinfo() {
+      confirm("Please confirm before reset");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+
+  
+</body>
+
+</html>
